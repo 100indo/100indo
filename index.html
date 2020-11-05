@@ -36,7 +36,7 @@
             <li><input type="checkbox" id="4"> Dimarahin nyokap gara2 minum air es terus</li>
             <li><input type="checkbox" id="5"> Nyolong duit ortu  </li>
             <li><input type="checkbox" id="6"> Kebanjiran </li>
-            <li><input type="checkbox" id="7"> Udah usaha, yah malah cuma dianggap temen.</li>
+            <li><input type="checkbox" id="7"> Udah usaha, yah malah cuma dianggap temen (di PHP sama siapa aja).</li>
             <li><input type="checkbox" id="8"> Digodain abang2 pinggir jalan  / godain mba2 restoran</li>
             <li><input type="checkbox" id="9"> Ngumpet di mobil pas beli tiket masuk tempat wisata</li>
             <li><input type="checkbox" id="10"> Makan Indomie pake nasi</li>
@@ -48,7 +48,7 @@
             <li><input type="checkbox" id="16"> Pake wc jongkok </li>
             <li><input type="checkbox" id="17"> Ikut demo </b> you?</li>
             <li><input type="checkbox" id="18"> Panggil tukang pijet <b>above</b> you?</li>
-            <li><input type="checkbox" id="19"> Duit Etoll kurang </li>
+            <li><input type="checkbox" id="19"> Duit kurang / lupa bawa dompet </li>
             <li><input type="checkbox" id="20"> Di copet </li>
             <li><input type="checkbox" id="21"> Ngedit foto biar kliatan sama artis </li>
             <li><input type="checkbox" id="22"> Parkir di jalan ada pelang p coret</li>
@@ -76,7 +76,7 @@
             <li><input type="checkbox" id="44"> Ngeliat dan bingung kenapa alfamaret sama indomaret yang bersebelahan </li>
             <li><input type="checkbox" id="45"> Pernah kesel bngt sama MALAYSIA </li>
             <li><input type="checkbox" id="46"> Sebarin informasi tanpa cek fakta (sebarin hoax)</li>
-            <li><input type="checkbox" id="47"> Ngomong kasar kalo lagi marah/bete</li>
+            <li><input type="checkbox" id="47"> Ikut Giveaway online, Kalo belom nanti follow kita di insta</li>
             <li><input type="checkbox" id="48"> Beli makanan viral dan ternyata ga enak</li>
             <li><input type="checkbox" id="49"> Pernah denger orang ngomong “ada tuyulnya tuh makanya rame /kena santet dia”</li>
             <li><input type="checkbox" id="50"> Ketemu halaman internet positif</li>
@@ -88,7 +88,8 @@
             </div>
             <!-- end result -->
             <div id="show">
-              <h1>Seberapa Indokah Kamu</h1><p><h3><b id="score"></b><br><br>Share Hasil Kamu dengan Teman Kamu dan Juga lupa untuk FOLLOW dan TAG kami di Instagram @100indo. Terima Kasih </h3><br><br><a href="https://100indo.github.io/100indo/"><u>Kembali</u> ke Quiz</a></p>
+              <h1>Seberapa Indokah Kamu</h1><p><h3><b id="score"></b><br><br>Share Hasil Kamu dengan Teman Kamu dan Juga lupa untuk FOLLOW dan TAG kami di Instagram @100indo
+		    (<a href="http://instagram.com/100indo") Nanti ada giveaway !, Ratusan juta (Amin). Terima Kasih </h3><br><br><a href="https://100indo.github.io/100indo/"><u>Kembali</u> ke Quiz</a></p>
             </div>
 
 
@@ -99,7 +100,7 @@
         $('#submit').click(function() {
             var check_list = document.querySelectorAll('input[type="checkbox"]:checked');
             var check_total = check_list.length;
-            $('#score').html("score: " + check_total + "/100");
+            $('#score').html("score: " + check_total + "/50");
             $("#show").show();
             $("#hide").hide();
         });
